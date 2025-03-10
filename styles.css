@@ -1,0 +1,367 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: #0a0a23;
+    color: white;
+    font-family: "Poppins", sans-serif;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%;
+    background-color: #1a1a40;
+  }
+  .left {
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
+  .right ul {
+    display: flex;
+    list-style: none;
+  }
+  .right ul a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0 15px;
+    transition: color 0.3s;
+  }
+  .right ul a:hover {
+    color: #ffb300;
+  }
+  main hr {
+    border: 1px solid #ffb300;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .first-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5% 10%;
+  }
+  .leftsection {
+    width: 50%;
+  }
+
+  .leftsection p{
+    font-size: 1.5rem;
+    margin-top: 20px;
+  }
+  .leftsection h1 {
+    font-size: 2.5rem;
+  }
+  .name {
+    color: #ffb300;
+  }
+  #element {
+    color: #ffb300;
+  }
+  .rightsection img {
+    width: 400px;
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+  }
+  
+  .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    background: #ffb300;
+    color: #0a0a23;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  .btn:hover {
+    background: white;
+    color: #0a0a23;
+  }
+    
+  /* footersection */
+    /* footer{
+        footer {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    padding: 40px 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-first h3 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-second ul,
+.footer-fourth ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.footer-second a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-second a:hover {
+    color: #00aaff;
+}
+
+.footer-third img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.footer-third img:hover {
+    transform: scale(1.2);
+}
+
+.footer-fourth ul li {
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.footer-fourth ul li:hover {
+    color: #00aaff;
+}
+
+.center-text {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    opacity: 0.7;
+}
+;
+        color: white;
+        height: 150px;
+        padding: 20px 10%;
+        width: 100%;
+    }
+  .footer{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer ul{ */
+    /* display: flex; */
+    /* list-style: none;
+  } */
+    /* .footer ul li{
+        /* padding: 10px;
+        margin: 10px; */
+        /* cursor: pointer;
+    } */ 
+    /* .footer-first{
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+    .footer-second ul a{
+        text-decoration: none;
+        color: white;
+        font-size: 1rem;
+        font-weight: 500;
+        margin: 0 15px;
+        transition: color 0.3s;
+    }
+    .footer .footer-third img{
+        width: 30px;
+        margin: 0 10px;
+    }
+    .footer-third img:hover {
+        background-color: transparent;
+        transition: 0.5ms;
+        zoom : 1.2;
+    }
+    .footer-third img:active {
+        background-color: transparent;
+        transition: 0.5ms;
+        zoom : 1;
+    } */
+
+/* footer */
+footer {
+    background-color: #1a1a40;
+    color: #ffffff;
+    padding: 40px 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0  auto;
+}
+
+.footer-first h3 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-second ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    gap: 23px;
+    justify-content: center;
+}
+
+.footer-second a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-second a:hover {
+    color: #00aaff;
+}
+
+.footer-third img {
+    width: 30px;
+    height: 30px;
+    margin: 10px 15px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.footer-third img:hover {
+    transform: scale(1.2);
+}
+
+
+.center-text {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+
+    /* skillssection */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        background-color: #0a0a23;
+        color: white;
+        font-family: "Poppins", sans-serif;
+    }
+
+    .skills-section {
+        padding: 50px 10%;
+        text-align: center;
+    }
+    .skills-section h2 {
+        font-size: 2.2rem;
+        margin-bottom: 20px;
+        display: flex;
+        align-items: flex-start;
+    }
+    .skills-category {
+        margin-bottom: 30px;
+    }
+    .skills-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    .skill-card {
+        background: #1a1a40;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        width: 150px;
+        transition: transform 0.3s ease-in-out, background 0.3s;
+    }
+    .skill-card:hover {
+        transform: scale(1.1);
+        background: #ffb300;
+        color: #0a0a23;
+    }
+    .skill-card i {
+        font-size: 3rem;
+        margin-bottom: 10px;
+    }
+    .skills-category h3{
+        font-size: 1.5rem;
+        margin-bottom: 15px;
+    }
+    /* Progress Bar (Hidden by Default) */
+.progress-bar {
+    height: 8px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    margin-top: 10px;
+    overflow: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+.progress {
+    height: 100%;
+    background: linear-gradient(to right, #ff9800, #ff5722);
+    border-radius: 5px;
+}
+/* Progress Bar Animation */
+.progress-bar.animate {
+    animation: animate1 1s 0.5s forwards;
+}
+@keyframes animate1 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
+.skill-card:hover .progress-bar {
+    opacity: 1;
+}
+.profile-pic {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.profile-pic img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+    /* border: 4px solid #ffcc00; */
+    object-fit: cover;
+}
